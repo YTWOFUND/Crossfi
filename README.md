@@ -45,11 +45,11 @@ go version
 ### Download and build binaries
 ```
 cd $HOME && mkdir -p $HOME/go/bin
-curl -L https://github.com/crossfichain/crossfi-node/releases/download/v0.3.0-prebuild3/crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz > crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
-tar -xvzf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
+curl -L https://github.com/crossfichain/crossfi-node/releases/download/v0.3.0-prebuild9/crossfi-node_0.3.0-prebuild9_linux_amd64.tar.gz > crossfi-node_0.3.0-prebuild9_linux_amd64.tar.gz
+tar -xvzf crossfi-node_0.3.0-prebuild9_linux_amd64.tar.gz
 chmod +x $HOME/bin/crossfid
 mv $HOME/bin/crossfid $HOME/go/bin
-rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz readme.md $HOME/bin
+rm -rf crossfi-node_0.3.0-prebuild9_linux_amd64.tar.gz readme.md $HOME/bin
 ```
 
 # Config and init app
